@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #3f3f3f;
+}
+
+.header {
+  background: url("https://tctechcrunch2011.files.wordpress.com/2014/09/airbnb-a8707ed9_original.jpg") no-repeat;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.searchBar {
+  text-align: center;
+  padding: 2%;
+}
+
+input[type=text] {
+  width: 75%;
+  border: 1px solid #ededed;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
+  color: #a8a8a8;
+  box-shadow: 0px 0px 5px #ededed;
+}
+
+input[type=submit] {
+  width: 20%;
+  border: 1px solid #ededed;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 2px 10px 2px;
+  margin: 0;
+  font-size: 18px;
+  box-shadow: 0px 0px 5px #ededed;
+}
+
+.main-img-container {
+  padding: 10px;
+}
+
+.headings {
+  font-size: 24px;
+  padding-left: 15px;
+}
+
+.experience-img-container {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.experience {
+  width: 150px;
+  padding: 0px 5px 0px 5px;
+  display: inline-block;
+}
+
+.homes {
+  width: 200px;
+  padding: 0px 5px 0px 5px;
+  display: inline-block;
+}
+
+.featured {
+  width: 100px;
+  padding: 0px 5px 0px 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.img-icons img {
+  width: 100%;
+}
+
+.img-icons p {
+  margin: 0;
+  padding: 5px;
+}
+
+.img-icons p {
+  overflow: scroll;
+  margin: 0;
+  padding: 5px;
+}
+
+.main-img-container {
+  border-bottom: 1px solid #ededed;
+}
+
+.footer {
+  padding: 10px;
+}
+
+.dropDowns {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  border-bottom: 1px solid #ededed;
+
+}
+
+.exchange {
+  width: 45%;
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #ededed;
+}
+
+select {
+  font-size: 24px;
+  color: #3f3f3f;
+}
+
+.copyright {
+  padding-left: 5%;
+}
